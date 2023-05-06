@@ -157,14 +157,12 @@ public class GetCourseVideoDetailAuthorizer : AbstractRequestAuthorizer<GetCours
 ```
 The usage of `AbstractRequestAuthorizer<TRequest>` will usually be preferable; this abstract class does a couple things for us. It takes care of initializing and adding new requirements to the `Requirements` property through the `UseRequirement(IAuthorizationRequirement)`, finally, it still forces the class extending it to implement the `IAuthorizer.BuildPolicy()` method which is very important for passing the needed arguments to the authorization requirement that handles the authorization logic.
 
-For any requests, bug or comments, please [open an issue][issues] or [submit a
-pull request][pulls].
+For any requests, bug or comments, please [open an issue][issues] or [submit a pull request][pulls].
 
 [dotnet-core-cli-tools]: https://docs.microsoft.com/en-us/dotnet/core/tools/
-[issues]: https://github.com/AustinDavies/MediatR.Behaviors.Authorization/issues/new
+[issues]: https://github.com/BDSoftBE/Mediator.Behaviors.Authorization/issues/new
 [nuget-cli]: https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference
 [package-manager-console]: https://docs.microsoft.com/en-us/nuget/tools/package-manager-console
-[pulls]: https://github.com/AustinDavies/MediatR.Behaviors.Authorization/pulls
-[article]: https://levelup.gitconnected.com/handling-authorization-in-clean-architecture-with-asp-net-core-and-mediatr-6b91eeaa4d15
+[pulls]: https://github.com/BDSoftBE/Mediator.Behaviors.Authorization/pulls
 [mediatrv]: https://github.com/AustinDavies/MediatR.Behaviors.Authorization
 [mediator]: https://github.com/martinothamar/Mediator

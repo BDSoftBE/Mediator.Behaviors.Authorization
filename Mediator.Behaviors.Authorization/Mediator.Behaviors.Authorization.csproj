@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Mediator.Behaviors.Authorization</AssemblyName>
+    <Authors>Bart Devriendt</Authors>
+    <Description>A simple request authorization package that allows you to build and run request specific authorization requirements before your request handler is called based on Mediator.</Description>
+    <PackageTags>Mediator, Authorization</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Product>Mediator.Behaviors.Authorization</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Mediator.Behaviors.Authorization</PackageId>
+    <RepositoryUrl>https://github.com/BDSoftBE/Mediator.Behaviors.Authorization</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageProjectUrl>https://github.com/BDSoftBE/Mediator.Behaviors.Authorization</PackageProjectUrl>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <LangVersion>11</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="Mediator.Abstractions" Version="2.0.*" />
+  </ItemGroup>
+
+</Project>
